@@ -1,1 +1,38 @@
-#
+/* Basic CSS for body styling */
+body {
+    /* Background */
+    background-color: #f4f4f9; /* Light grey background */
+    background-image: url('background.jpg'); /* Add an image if you want */
+    background-size: cover; /* Cover the full viewport */
+    background-attachment: fixed; /* Keeps the background in place on scroll */
+
+    /* Typography */
+    font-family: Arial, sans-serif; /* Set default font */
+    font-size: 16px; /* Base font size */
+    color: #333; /* Text color */
+
+    /* Margin and Padding */
+    margin: 0;
+    padding: 0;
+    
+    /* Centering content */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    /* Smooth transition for color or background changes */
+    transition: all 0.3s ease;
+}
+
+/* Additional styling for other elements can go here */
+h1 {
+    font-size: 2.5em;
+    color: #333;
+}
+
+p {
+    font-size: 1.125em;
+    line-height: 1.6;
+    color: #555;
+    max-width: 800px
